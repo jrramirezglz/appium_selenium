@@ -1,0 +1,1 @@
+ele_id = driver.find_element(AppiumBy.ID, "com.code2lead.kwad:id/EnterValue")
