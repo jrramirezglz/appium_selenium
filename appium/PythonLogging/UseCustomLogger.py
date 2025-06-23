@@ -1,5 +1,6 @@
 import logging
-import PythonLogging.PythonLogging as cl
+from appium.PythonLogging import PythonLogging as cl
+
 
 class CustomLoggerDemo():
     log =cl.customLogger()

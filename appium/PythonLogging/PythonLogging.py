@@ -15,7 +15,7 @@ import logging
 """
 logs con formato  para fecha file mode = W reemplaza los valores , si no se agrega solo se agregan los nuevos datos al final 
 """
-logging.basicConfig(format='%(asctime)s: %(levelname)s',datefmt='%d/%m/%y %I:%M:%S %p %A', filename= "Test.log", level=logging.DEBUG, filemode='w')
+logging.basicConfig(format='%(asctime)s: %(levelname)s', datefmt='%d/%m/%y %I:%M:%S %p %A', filename="Test.log", level=logging.DEBUG, filemode='w')
 
 
 logging.critical("Este es un Error critico")

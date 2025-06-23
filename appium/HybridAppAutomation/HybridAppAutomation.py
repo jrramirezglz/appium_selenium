@@ -34,9 +34,9 @@ from appium import webdriver
 import time
 
 from appium.webdriver.common.appiumby import AppiumBy
-from selenium.common.exceptions import ElementNotVisibleException, ElementNotSelectableException, NoSuchElementException
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.wait import WebDriverWait
+from selenium_webscraping.common.exceptions import ElementNotVisibleException, ElementNotSelectableException, NoSuchElementException
+from selenium_webscraping.webdriver.common.by import By
+from selenium_webscraping.webdriver.support.wait import WebDriverWait
 
 """
 1.) Mobile Browser version and ChromeDriver or respective Browser Driver should be in same version 

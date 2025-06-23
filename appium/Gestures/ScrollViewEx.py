@@ -3,8 +3,8 @@ import time
 from appium import webdriver
 from appium.webdriver.common.appiumby import AppiumBy
 from appium.options.android import UiAutomator2Options  # 👈 Importar opciones para Android
-from selenium.common import ElementNotVisibleException, ElementNotSelectableException, NoSuchElementException
-from selenium.webdriver.support.wait import WebDriverWait
+from selenium_webscraping.common import ElementNotVisibleException, ElementNotSelectableException, NoSuchElementException
+from selenium_webscraping.webdriver.support.wait import WebDriverWait
 
 options = UiAutomator2Options()  # 👈 Instanciar correctamente
 options.set_capability("platformName", "Android")

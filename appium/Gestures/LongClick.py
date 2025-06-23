@@ -1,11 +1,11 @@
 from appium import webdriver
 from appium.options.android import UiAutomator2Options
 from appium.webdriver.common.appiumby import AppiumBy
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.common.exceptions import ElementNotVisibleException, ElementNotSelectableException, NoSuchElementException
+from selenium_webscraping.webdriver.support.ui import WebDriverWait
+from selenium_webscraping.common.exceptions import ElementNotVisibleException, ElementNotSelectableException, NoSuchElementException
 
-from selenium.webdriver.common.actions.action_builder import ActionBuilder
-from selenium.webdriver.common.actions.pointer_input import PointerInput
+from selenium_webscraping.webdriver.common.actions.action_builder import ActionBuilder
+from selenium_webscraping.webdriver.common.actions.pointer_input import PointerInput
 
 import time
 
