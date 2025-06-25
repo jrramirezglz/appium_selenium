@@ -1,5 +1,5 @@
 import logging
-from appium.PythonLogging import PythonLogging as cl
+from appium_curse.PythonLogging import PythonLogging as cl
 
 
 class CustomLoggerDemo():
